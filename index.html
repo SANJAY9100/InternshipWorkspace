@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="source/style.css">
+    <script> 
+      $(function(){
+        $("#header").load("source/commonheader.html"); 
+        $("#footer").load("source/commonfooter.html"); 
+      });
+      </script> 
+  </head>
+  
+  <body>
+    <div class="container-fluid container-md">
+        <div class="header sticky-top" id="header"></div>
+        <div class=" p-0 m-0">
+        <!--Top Advertisement-->
+        <div class="advertisement text-center  bg-light" id="topadv">
+            add goes here
+        </div>
+        <!--Top Advertisement-->
+        
+        <div class="notificationbody">
+        <div class="left mt-1">
+            <div class="advertisement  advertisement-md text-center bg-light " id="leftadv">
+                add goes here
+            </div>
+            <div class="LatestPosts">
+                <ul class="list-group ">
+                    <li class="list-group-item active mt-1 slider_bg_1">Latest Posts</li>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 3</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 4</a>
+                  </ul>                  
+            </div>
+            <div class="PopularPosts">
+                <ul class="list-group">
+                    <li class="list-group-item active mt-1 slider_bg_1">Popular Posts</li>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 3</a>
+                    <a href="#" class="list-group-item list-group-item-action p-1">Link 4</a>
+                  </ul>                  
+            </div>
+        </div>
+        <!--Post-Content Start-->
+        <div class="mx-1 my-0 p-0">
+            
+            <table class="table " id="details">
+                <tbody>
+                    <tr>
+                        <td  style="padding:0;border: 1px solid black;" >
+                            <table class="table tableinner table-bordered" style="margin: 0;" >
+                                <tr  style="background-color: #04BBE4;">
+                                    <td style='font-size:15px' ><i class="fa fa-print" ></i><input type="button"  onclick="window.print()" style="font-weight: bold;color:black;background-color: inherit;border:none;" value=" Print This Page"></td>
+                                    <td style='font-size:15px' ><a href="#vacancy" style="text-decoration:none;color:black"><i style='font-size:24px' class='fas'>&#xf02d;</i><strong> Vacancy Details</strong></a></td>
+                                    <td style='font-size:15px' ><a href="#imp" style="text-decoration:none;color:black"><i style='font-size:24px' class='far'>&#xf0a4;</i><strong> Apply Now</strong></a></td>
+                                </tr>
+                                <tr   style="background-color: #04BBE4;">
+                                    <td style='font-size:15px' ><a href="#imp" style="text-decoration:none;color:black"><i  class="material-icons">&#xe02f;</i><strong> Syllabus</strong></a></td>
+                                    <td style='font-size:15px' ><a href="#imp" style="text-decoration:none;color:black"><i style='font-size:24px' class='fas'>&#xf02e;</i><strong> Previous Year Paper</strong></a></td>
+                                    <td style='font-size:15px' ><a href="#imp" style="text-decoration:none;color:black"><i style='font-size:15px' class="material-icons">&#xe31f;</i><strong> Online Tests</strong></a></td>
+                                </tr> 
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <h4><strong><span>Recruitement Title</span></strong></h4>
+                            <h5><span>Department Title</span></h5>
+                            <h5><span>Post Title</span></h5>
+                            <a href="#">Advertisement</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row m-2 ">
+                                <div class="col-md-5 text-center "><kbd style="background-color: #04BBE4;">IMPORTANT DATES</kbd>
+                                    <ul class=" text-left ml-3 mt-2">
+                                        <li >Starting Date : <strong><span>DD/MM/YYYY</span></strong></li>
+                                        <li >Last Date : <strong><span class="text-danger">DD/MM/YYYY</span></strong></li>
+                                        <li >Last Date Fee Payment : <strong><span class="text-danger">DD/MM/YYYY</span></strong></li>
+                                        <li >Exam Date : <strong><span>DD/MM/YYYY</span></strong></li>
+                                    </ul>   
+                                </div>
+                                <hr style="border:1px solid black;height: 300px;">
+                                <div class="col-md-5 text-center"><kbd style="background-color: #04BBE4;">APPLICATION FEE</kbd>
+                                    <ul class="text-left ml-3 mt-2 ">
+                                        <b><span>(Categories)</span></b>
+                                        <li >General /OBC/ EWS : <b>Rs.<span></span></b></li>
+                                        <li >All Category Female : <b>Rs.<span></span></b></li>
+                                        <li >SC/ ST : <b>Rs.<span></span></b></li>
+                                        <b>(Other Posts (Group-C))</b>
+                                        <li >General /OBC/ EWS : <b>Rs.<span></span></b></li>
+                                        <li >All Category Female : <b>Rs.<span></span></b></li>
+                                        <li >SC/ ST : <b>Rs.<span></span></b></li>                                                
+                                    </ul>
+                                    <p class="text-left">Fee may be sent through Indian Postal Orders and Bank Drafts only.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-5 text-center"><kbd  style="background-color: #04BBE4;">Job Location</kbd>
+                                    <div class="mt-3">
+                                        <p>All Over India</p> 
+                                    </div> 
+                                </div>
+                                <hr style="border:1px solid black;height: 180px;">
+                                    <div class="col-sm-5 text-center"><kbd style="background-color: #04BBE4;"">Age Limit</kbd>
+                                        <div class="mt-3 text-center">
+                                            <span><b>As on <span>DD/MM/YYYY</span></b></span>
+                                            <h5>Maximum : <span>x years</span></h5>
+                                            <p class="text-left" style="font-size: 15px;">Age Relaxation will be provided as per Govt. Rules.</p>
+                                        </div> 
+                                    </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #04BBE4;"><b style="color:#fff">Number Of Posts : <span>number</span></b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row p-1 mx-2">
+                                <div class="advertisement col-sm-12 text-center">
+                                    add goes here
+                                </div>
+                                <div class="col-sm-12 m-1">
+                                    <a href="#">advertisement link</a>
+                                </div>
+                                <div class="col-sm-12 text-left" id="vacancy">
+                                    <p><strong>Vacancy Details for Recruitment : </strong><span></span></p>
+                                    <p><strong>Pay Scale : </strong><span></span></p>
+                                    <p><strong>Educational Qualification : </strong></p>
+                                    <p><strong>Note : </strong><span></span></p>
+                                    <p><strong>How to Apply : </strong><span></span></p>
+                                    <p><strong>Mode of Selection : </strong><span></span></p>
+                                </div>
+                                <div class="col-sm-12 m-1">
+                                    <a href="#">advertisement link</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #16F485;" id="imp"><b>Important Links</b></td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0">
+                            <table class="table table-bordered table-warning" style="margin: 0;"  >
+                                <tr >
+                                    <td style="border-right:1px solid black ;border-bottom:1px solid black ;"><strong>Apply Online</strong></td>
+                                    <td style="border-bottom:1px solid black ;"><a href="#">Registration</a></td>                                    
+                                </tr>
+                                <tr >
+                                    <td style="border-right:1px solid black ;border-bottom:1px solid black ;"><strong>Download App</strong></td>
+                                    <td style="border-bottom:1px solid black ;"><a href="#">Click Here</a></td>                                    
+                                </tr>
+                                <tr >
+                                    <td style="border-right:1px solid black ;border-bottom:1px solid black ;"><strong>Download Source</strong></td>
+                                    <td style="border-bottom:1px solid black ;"><a href="#">Click Here</a></td>                                    
+                                </tr>
+                                <tr >
+                                    <td style="border-right:1px solid black ;"><strong>Official Website</strong></td>
+                                    <td><a href="#">Click Here</a></td>                                    
+                                </tr>                               
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><b>Download Android App</b></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><b>Join on Facebook</b></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><b>Job Alert on Email</b></a></td>
+                    </tr>
+                    <tr>
+                        <td>FAQS<br><p class="text-left"><span></span></td></p>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">Previous</a>
+            <a class="float-right" href="#">Next</a>
+  
+            <!--Feedback Form Start-->
+            <div class="mt-2"style="border:1px solid grey">
+                <div style="padding: 10px;">
+                <div>
+                    <h4 class="alert  text-center" style="background-color: #04BBE4; color: #ffffff;"><b>1 Thought on "<span></span>"</b></h4>
+                    <p style="font-size: 13px;"> Your email address will not be published. Required fields are marked *</p>
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:*</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:*</label>
+                        <input type="email" class="form-control" id="email" placeholder="abc@email.com" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="url">Website : </label>
+                        <input type="url" class="form-control" id="url" placeholder="www.jobvacancyresult.com" name="url">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:*</label>
+                        <input type="textarea" class="form-control" id="comment" placeholder="Comments" name="comment" required>
+                    </div>
+                    <div class="text-center">
+                    <input class="btn btn-primary px-4 py-2" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            </div>
+            <!--Feedback Form End-->
+            <!--Related Posts Start-->
+            <div class="mt-2"style="border:1px solid grey">
+                <div class="p-1">
+                    <h4 class="alert text-center slider_bg_1" style="color: #fff;"><b>Related Posts</b></h4>
+                    <div class="row">
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                        <div class="col-md-4 mt-1"><a href="#">link</a></div>
+                    </div>
+                </div>
+            </div>
+        <!--Related Posts End-->
+        <!--More Jobs Start-->
+        <div class="mt-2"style="border:1px solid grey">
+            <div class="p-1">
+                <h4 class="alert text-center text-white" style="background-color: #16F485;">More Jobs For You</h4>
+                <div class="row text-center">
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a  style="color:black;padding:7px 0px" href="#">Bank Jobs</a></div>
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a  style="color:black;padding:7px 0px" href="#">Government</a></div>
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a  style="color:black;padding:7px 0px" href="#">Railway Jobs</a></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a style="color:black;padding:7px 0px" href="#">Defense Jobs</a></div>
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a style="color:black;padding:7px 0px" href="#">Teaching Jobs</a></div>
+                    <div class="col-lg-3 ml-5 mt-4 py-2 " style="width:80%;background-color: #04BBE4;"><a style="color:black;padding:7px 0px" href="#">Research Jobs</a></div>
+                </div>
+            </div>
+        </div>
+        <!--More Jobs End-->
+        </div> 
+        <!--Post-Content End-->
+  
+            <div class="right mt-1">
+                <div class="RelatedPosts">
+                    <ul class="list-group">
+                        <li class="list-group-item active slider_bg_1">Related Posts</li>
+                        <a href="#" class="list-group-item list-group-item-action p-1">Link 1</a>
+                        <a href="#" class="list-group-item list-group-item-action p-1">Link 2</a>
+                        <a href="#" class="list-group-item list-group-item-action p-1">Link 3</a>
+                        <a href="#" class="list-group-item list-group-item-action p-1">Link 4</a>
+                      </ul>                  
+                </div>
+                <div class="advertisement advertisement-md text-center bg-light mt-1" id="leftadv">
+                    add goes here
+                </div>
+            </div>
+            
+          
+        </div>
+        </div>
+        <div class="">
+        <div class="row">
+            <div class="col-md-4 mt-2 "><div class="Recruitement">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Recruitement</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Vacancy">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Vacancy</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Jobs">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Jobs</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Admit-Card">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Admit Card</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Application-Form">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Application Form</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Entrance-Exam">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Entrance Exam</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2 "><div class="Exam-Result">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;">Exam Result</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+            <div class="col-md-4 mt-2"><div class="Study In India">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center slider_bg_1" style="padding:5px;font-weight:bold;" >Study In India</li>
+                    <a href="#" >Link 1</a>
+                    <a href="#" >Link 2</a>
+                    <a href="#" >Link 3</a>
+                    <a href="#" >Link 4</a>
+                  </ul>                  
+            </div></div>
+  
+  
+        </div>
+        </div> 
+        <div id="footer"></div>   
+    </div>
+  </body>
+</html>
